@@ -71,7 +71,7 @@ public class EventosServices {
         return "El evento que intentas eliminar no existe.";
     }
 
-    // Método auxiliar para pasar de Entidad a DTO
+    
     private EventosDTO convertirADto(Eventos evento) {
         EventosDTO dto = new EventosDTO();
         dto.setIdEvento(evento.getIdEvento());
